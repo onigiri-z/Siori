@@ -17,6 +17,7 @@
 		7B271E5427478891002C28A2 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E5327478891002C28A2 /* model.swift */; };
 		7B271E56274788A1002C28A2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E55274788A1002C28A2 /* ViewModel.swift */; };
 		7B271E58274788AE002C28A2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E57274788AE002C28A2 /* Home.swift */; };
+		7B271E992747E3C4002C28A2 /* DatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E982747E3C4002C28A2 /* DatailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7B271E5327478891002C28A2 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		7B271E55274788A1002C28A2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		7B271E57274788AE002C28A2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7B271E982747E3C4002C28A2 /* DatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				7B271E57274788AE002C28A2 /* Home.swift */,
+				7B271E982747E3C4002C28A2 /* DatailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				7B271E58274788AE002C28A2 /* Home.swift in Sources */,
 				7B271E56274788A1002C28A2 /* ViewModel.swift in Sources */,
 				7B271E2727477FA5002C28A2 /* SioriApp.swift in Sources */,
+				7B271E992747E3C4002C28A2 /* DatailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

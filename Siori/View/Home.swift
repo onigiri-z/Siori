@@ -1,8 +1,22 @@
 import SwiftUI
 
 struct Home: View {
+    
+    @StateObject var viewModel = ViewModel()
+    
     var body: some View {
-        Text("HomeView")
+        VStack{
+            ForEach(books){book in
+                Text(book.bookName)
+                    .onTapGesture {
+                        withAnimation{
+                            viewModel.currentProduct = book
+                            viewModel.showDetail = true
+                        }
+                    }
+            }
+        }.overlay(DatailView().environmentObject(viewModel))
+        
     }
 }
 

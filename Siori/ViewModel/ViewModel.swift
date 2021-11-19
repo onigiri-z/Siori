@@ -1,8 +1,6 @@
-//
-//  ViewModel.swift
-//  Siori
-//
-//  Created by 入江健太 on 2021/11/19.
-//
+import SwiftUI
 
-import Foundation
+class ViewModel: ObservableObject {
+    @Published var currentProduct: BookModel?
+    @Published var showDetail = false
+}
