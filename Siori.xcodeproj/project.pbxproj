@@ -14,6 +14,9 @@
 		7B271E3827477FA7002C28A2 /* SioriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E3727477FA7002C28A2 /* SioriTests.swift */; };
 		7B271E4227477FA8002C28A2 /* SioriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E4127477FA8002C28A2 /* SioriUITests.swift */; };
 		7B271E4427477FA8002C28A2 /* SioriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E4327477FA8002C28A2 /* SioriUITestsLaunchTests.swift */; };
+		7B271E5427478891002C28A2 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E5327478891002C28A2 /* model.swift */; };
+		7B271E56274788A1002C28A2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E55274788A1002C28A2 /* ViewModel.swift */; };
+		7B271E58274788AE002C28A2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E57274788AE002C28A2 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7B271E3D27477FA8002C28A2 /* SioriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SioriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B271E4127477FA8002C28A2 /* SioriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SioriUITests.swift; sourceTree = "<group>"; };
 		7B271E4327477FA8002C28A2 /* SioriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SioriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B271E5327478891002C28A2 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		7B271E55274788A1002C28A2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7B271E57274788AE002C28A2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		7B271E2527477FA5002C28A2 /* Siori */ = {
 			isa = PBXGroup;
 			children = (
+				7B271E5227478879002C28A2 /* Model */,
+				7B271E512747886F002C28A2 /* ViewModel */,
+				7B271E5027478869002C28A2 /* View */,
 				7B271E2627477FA5002C28A2 /* SioriApp.swift */,
 				7B271E2827477FA5002C28A2 /* ContentView.swift */,
 				7B271E2A27477FA7002C28A2 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				7B271E4327477FA8002C28A2 /* SioriUITestsLaunchTests.swift */,
 			);
 			path = SioriUITests;
+			sourceTree = "<group>";
+		};
+		7B271E5027478869002C28A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B271E57274788AE002C28A2 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B271E512747886F002C28A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B271E55274788A1002C28A2 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B271E5227478879002C28A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B271E5327478891002C28A2 /* model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B271E2927477FA5002C28A2 /* ContentView.swift in Sources */,
+				7B271E5427478891002C28A2 /* model.swift in Sources */,
+				7B271E58274788AE002C28A2 /* Home.swift in Sources */,
+				7B271E56274788A1002C28A2 /* ViewModel.swift in Sources */,
 				7B271E2727477FA5002C28A2 /* SioriApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
