@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B18D28A2750D28A00FFD0B2 /* SeachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18D2892750D28A00FFD0B2 /* SeachView.swift */; };
 		7B271E2727477FA5002C28A2 /* SioriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E2627477FA5002C28A2 /* SioriApp.swift */; };
 		7B271E2927477FA5002C28A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E2827477FA5002C28A2 /* ContentView.swift */; };
 		7B271E2B27477FA7002C28A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B271E2A27477FA7002C28A2 /* Assets.xcassets */; };
@@ -15,9 +16,16 @@
 		7B271E4227477FA8002C28A2 /* SioriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E4127477FA8002C28A2 /* SioriUITests.swift */; };
 		7B271E4427477FA8002C28A2 /* SioriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E4327477FA8002C28A2 /* SioriUITestsLaunchTests.swift */; };
 		7B271E5427478891002C28A2 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E5327478891002C28A2 /* model.swift */; };
-		7B271E56274788A1002C28A2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E55274788A1002C28A2 /* ViewModel.swift */; };
+		7B271E56274788A1002C28A2 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E55274788A1002C28A2 /* BaseViewModel.swift */; };
 		7B271E58274788AE002C28A2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E57274788AE002C28A2 /* Home.swift */; };
-		7B271E992747E3C4002C28A2 /* DatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B271E982747E3C4002C28A2 /* DatailView.swift */; };
+		7B787A652750B12A0057E2E7 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B787A642750B12A0057E2E7 /* BaseView.swift */; };
+		7B787A672750B2250057E2E7 /* CustomCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B787A662750B2250057E2E7 /* CustomCurveShape.swift */; };
+		7B9A876D27576A6000B8E64C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A876C27576A6000B8E64C /* SettingView.swift */; };
+		7B9A876F27576A9300B8E64C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A876E27576A9300B8E64C /* Const.swift */; };
+		7B9A877127576E6C00B8E64C /* FileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A877027576E6C00B8E64C /* FileDataModel.swift */; };
+		7B9A877327576E8C00B8E64C /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A877227576E8C00B8E64C /* APIModel.swift */; };
+		7BB383BA275621D10077FA21 /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB383B9275621D10077FA21 /* FileController.swift */; };
+		7BB555C1275728410002C045 /* BookAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB555C0275728410002C045 /* BookAddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B18D2892750D28A00FFD0B2 /* SeachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachView.swift; sourceTree = "<group>"; };
 		7B271E2327477FA5002C28A2 /* Siori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siori.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B271E2627477FA5002C28A2 /* SioriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SioriApp.swift; sourceTree = "<group>"; };
 		7B271E2827477FA5002C28A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,9 +58,16 @@
 		7B271E4127477FA8002C28A2 /* SioriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SioriUITests.swift; sourceTree = "<group>"; };
 		7B271E4327477FA8002C28A2 /* SioriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SioriUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7B271E5327478891002C28A2 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
-		7B271E55274788A1002C28A2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7B271E55274788A1002C28A2 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		7B271E57274788AE002C28A2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		7B271E982747E3C4002C28A2 /* DatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailView.swift; sourceTree = "<group>"; };
+		7B787A642750B12A0057E2E7 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		7B787A662750B2250057E2E7 /* CustomCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveShape.swift; sourceTree = "<group>"; };
+		7B9A876C27576A6000B8E64C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7B9A876E27576A9300B8E64C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		7B9A877027576E6C00B8E64C /* FileDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataModel.swift; sourceTree = "<group>"; };
+		7B9A877227576E8C00B8E64C /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		7BB383B9275621D10077FA21 /* FileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
+		7BB555C0275728410002C045 /* BookAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,7 @@
 		7B271E2527477FA5002C28A2 /* Siori */ = {
 			isa = PBXGroup;
 			children = (
+				7B9A876E27576A9300B8E64C /* Const.swift */,
 				7B271E5227478879002C28A2 /* Model */,
 				7B271E512747886F002C28A2 /* ViewModel */,
 				7B271E5027478869002C28A2 /* View */,
@@ -109,6 +126,7 @@
 				7B271E2827477FA5002C28A2 /* ContentView.swift */,
 				7B271E2A27477FA7002C28A2 /* Assets.xcassets */,
 				7B271E2C27477FA7002C28A2 /* Preview Content */,
+				7BB383B9275621D10077FA21 /* FileController.swift */,
 			);
 			path = Siori;
 			sourceTree = "<group>";
@@ -141,8 +159,12 @@
 		7B271E5027478869002C28A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7B787A642750B12A0057E2E7 /* BaseView.swift */,
 				7B271E57274788AE002C28A2 /* Home.swift */,
-				7B271E982747E3C4002C28A2 /* DatailView.swift */,
+				7B18D2892750D28A00FFD0B2 /* SeachView.swift */,
+				7BB555C0275728410002C045 /* BookAddView.swift */,
+				7B9A876C27576A6000B8E64C /* SettingView.swift */,
+				7B787A662750B2250057E2E7 /* CustomCurveShape.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,7 +172,7 @@
 		7B271E512747886F002C28A2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7B271E55274788A1002C28A2 /* ViewModel.swift */,
+				7B271E55274788A1002C28A2 /* BaseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -159,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				7B271E5327478891002C28A2 /* model.swift */,
+				7B9A877027576E6C00B8E64C /* FileDataModel.swift */,
+				7B9A877227576E8C00B8E64C /* APIModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +203,8 @@
 			dependencies = (
 			);
 			name = Siori;
+			packageProductDependencies = (
+			);
 			productName = Siori;
 			productReference = 7B271E2327477FA5002C28A2 /* Siori.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +277,8 @@
 				Base,
 			);
 			mainGroup = 7B271E1A27477FA5002C28A2;
+			packageReferences = (
+			);
 			productRefGroup = 7B271E2427477FA5002C28A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -293,12 +321,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9A877127576E6C00B8E64C /* FileDataModel.swift in Sources */,
 				7B271E2927477FA5002C28A2 /* ContentView.swift in Sources */,
 				7B271E5427478891002C28A2 /* model.swift in Sources */,
+				7BB383BA275621D10077FA21 /* FileController.swift in Sources */,
+				7B9A877327576E8C00B8E64C /* APIModel.swift in Sources */,
+				7B787A672750B2250057E2E7 /* CustomCurveShape.swift in Sources */,
 				7B271E58274788AE002C28A2 /* Home.swift in Sources */,
-				7B271E56274788A1002C28A2 /* ViewModel.swift in Sources */,
+				7B271E56274788A1002C28A2 /* BaseViewModel.swift in Sources */,
+				7B18D28A2750D28A00FFD0B2 /* SeachView.swift in Sources */,
+				7BB555C1275728410002C045 /* BookAddView.swift in Sources */,
+				7B9A876D27576A6000B8E64C /* SettingView.swift in Sources */,
+				7B787A652750B12A0057E2E7 /* BaseView.swift in Sources */,
 				7B271E2727477FA5002C28A2 /* SioriApp.swift in Sources */,
-				7B271E992747E3C4002C28A2 /* DatailView.swift in Sources */,
+				7B9A876F27576A9300B8E64C /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +498,7 @@
 				DEVELOPMENT_TEAM = CU767L7FT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "画像を取得します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +528,7 @@
 				DEVELOPMENT_TEAM = CU767L7FT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "画像を取得します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
